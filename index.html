@@ -1,0 +1,1678 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Seiretsu | AI ERP, Enterprise AI, Asset Operations and Connectivity
+    </title>
+    <meta
+      name="description"
+      content="Seiretsu integrates AI ERP, autonomous agents, asset operations, EHS, GovCloud, identity governance, and private 5G connectivity into a unified enterprise platform."
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- HEADER -->
+    <header class="header" id="top">
+      <div class="wrap header__in">
+        <a href="#top" class="brand" aria-label="Seiretsu Home">
+          <svg
+            viewBox="0 0 40 40"
+            class="brand__mark"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <defs>
+              <linearGradient
+                id="brand-grad"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stop-color="#3b82f6" />
+                <stop offset="100%" stop-color="#1d4ed8" />
+              </linearGradient>
+            </defs>
+            <circle cx="20" cy="20" r="18" fill="url(#brand-grad)" />
+            <path
+              d="M8 26C15 24.5 22 19 30 11"
+              stroke="#ffffff"
+              stroke-width="3"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <path
+              d="M11 31C17 29.5 23 24.5 29 17"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              fill="none"
+              opacity="0.75"
+            />
+          </svg>
+          <span class="brand__text">Seiretsu</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav" aria-label="Primary Navigation">
+          <div class="nav__item">
+            <button
+              type="button"
+              class="nav__btn"
+              id="mega-trigger"
+              aria-expanded="false"
+              aria-controls="mm-products"
+              aria-haspopup="true"
+            >
+              Products
+              <svg class="chevron" viewBox="0 0 10 6" aria-hidden="true">
+                <path
+                  d="M1 1L5 5L9 1"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                />
+              </svg>
+            </button>
+
+            <div
+              class="mega"
+              id="mm-products"
+              role="region"
+              aria-label="Products Menu"
+              hidden
+            >
+              <div class="mega__col">
+                <span class="mega__heading">AI ERP Suite</span>
+                <a href="#functions" class="mega__link"
+                  ><strong>VELORIS</strong
+                  ><span>Financial ledger & operations</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>XOSIA</strong><span>Procurement automation</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>Nexavion</strong><span>Enterprise logistics</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>SAIGEN</strong
+                  ><span>Generative process engine</span></a
+                >
+              </div>
+              <div class="mega__col">
+                <span class="mega__heading">AI Agents & CRM</span>
+                <a href="#assistant" class="mega__link"
+                  ><strong>Nikolai</strong
+                  ><span>Everyday copilot assistant</span></a
+                >
+                <a href="#platform" class="mega__link"
+                  ><strong>Sirach</strong
+                  ><span>Executive decision engine</span></a
+                >
+                <a href="#platform" class="mega__link"
+                  ><strong>Lumenix</strong
+                  ><span>Industrial data context</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>ARIA CRM</strong
+                  ><span>Customer intelligence suite</span></a
+                >
+              </div>
+              <div class="mega__col">
+                <span class="mega__heading">Operations & EHS</span>
+                <a href="#functions" class="mega__link"
+                  ><strong>Trestara AiiA</strong
+                  ><span>Enterprise asset management</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>Clinical CMMS</strong
+                  ><span>Hospital biomedical systems</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>Thorium AiiA EHS</strong
+                  ><span>Workplace safety & incidents</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>Paige &amp; Marivia</strong
+                  ><span>Small enterprise POS & retail</span></a
+                >
+              </div>
+              <div class="mega__col">
+                <span class="mega__heading">Trust & Infrastructure</span>
+                <a href="#functions" class="mega__link"
+                  ><strong>GovCloud Poseidon</strong
+                  ><span>Compliant agency cloud</span></a
+                >
+                <a href="#platform" class="mega__link"
+                  ><strong>Cyberdyne IGA</strong
+                  ><span>Agent & user access control</span></a
+                >
+                <a href="#platform" class="mega__link"
+                  ><strong>Ixiono Blockchain</strong
+                  ><span>Tamper-evident audit ledger</span></a
+                >
+                <a href="#functions" class="mega__link"
+                  ><strong>5G &amp; Private Networks</strong
+                  ><span>Campus wireless & MVNE</span></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <a href="#stories" class="nav__link">Industries</a>
+          <a href="#platform" class="nav__link">Platform</a>
+          <a href="#partners" class="nav__link">Partners</a>
+          <a href="#academy" class="nav__link">Academy</a>
+          <a href="#about" class="nav__link">Company</a>
+        </nav>
+
+        <!-- Action Buttons -->
+        <div class="header__actions">
+          <a href="#ask" class="btn btn--outline btn--sm">Ask Nikolai</a>
+          <a href="#contact" class="btn btn--primary btn--sm">Contact Us</a>
+          <button
+            type="button"
+            class="burger"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <span class="burger__bar"></span>
+            <span class="burger__bar"></span>
+            <span class="burger__bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <nav
+        class="mobile-nav"
+        id="mobile-nav"
+        aria-label="Mobile Navigation"
+        hidden
+      >
+        <div class="mobile-nav__group">
+          <p class="mobile-nav__heading">Products</p>
+          <a href="#functions" class="mobile-nav__sublink"
+            >AI ERP (VELORIS, SAIGEN)</a
+          >
+          <a href="#assistant" class="mobile-nav__sublink"
+            >Nikolai &amp; Enterprise AI</a
+          >
+          <a href="#functions" class="mobile-nav__sublink"
+            >Operations &amp; Clinical CMMS</a
+          >
+          <a href="#platform" class="mobile-nav__sublink"
+            >Cyberdyne Trust &amp; 5G</a
+          >
+        </div>
+        <a href="#stories" class="mobile-nav__link">Industries</a>
+        <a href="#platform" class="mobile-nav__link">Platform</a>
+        <a href="#partners" class="mobile-nav__link">Partners</a>
+        <a href="#academy" class="mobile-nav__link">Academy</a>
+        <a href="#about" class="mobile-nav__link">Company</a>
+        <div class="mobile-nav__cta">
+          <a href="#ask" class="btn btn--outline btn--full">Ask Nikolai</a>
+          <a href="#contact" class="btn btn--primary btn--full">Contact Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- HERO SECTION -->
+      <section class="hero" id="hero">
+        <div class="wrap hero__in">
+          <div class="hero__copy">
+            <div class="tag-badge">The Seiretsu Intelligent Enterprise</div>
+            <h1 class="hero__title">
+              Connect every operation. Run on intelligence.
+            </h1>
+            <p class="hero__lead">
+              AI ERP, enterprise AI agents, asset operations, safety, identity,
+              and 5G connectivity &mdash; built to work as one ecosystem, from
+              the shop floor to the boardroom.
+            </p>
+            <div class="hero__cta">
+              <a href="#functions" class="btn btn--white">Explore products</a>
+              <a href="#assistant" class="btn btn--ghost-light"
+                >See Nikolai in action</a
+              >
+            </div>
+          </div>
+
+          <div class="hero__visual" aria-hidden="true">
+            <!-- Geometric accent layers -->
+            <div class="block block--1"></div>
+            <div class="block block--2"></div>
+            <div class="block block--3"></div>
+
+            <!-- Hero Graphic -->
+            <img
+              src="assets/hero.webp"
+              alt="Seiretsu Enterprise Architecture Overview"
+              class="hero__img"
+              width="1200"
+              height="900"
+            />
+
+            <!-- Live Event Floating Chip -->
+            <div class="hero__chip">
+              <span class="pulse-dot"></span>
+              <span class="hero__chip-text"
+                >Work order created &bull; Clinical CMMS</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STORIES / INDUSTRY CAROUSEL -->
+      <section class="section" id="stories">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-kicker">Cross-Industry Impact</span>
+            <h2 class="sec-title">
+              AI that works across every industry we serve
+            </h2>
+            <p class="sec-desc">
+              See how Seiretsu products integrate to turn connected enterprise
+              telemetry into decisive action.
+            </p>
+          </div>
+
+          <div class="carousel" data-carousel>
+            <div class="carousel__track" id="stories-track">
+              <!-- Healthcare -->
+              <article class="story">
+                <div class="story__media">
+                  <img
+                    src="assets/img-hospital.webp"
+                    alt="Biomedical technician reviewing diagnostics beside an MRI scanner"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                  />
+                  <span class="story__badge">Healthcare</span>
+                </div>
+                <div class="story__body">
+                  <h3>Keeping MRI scanners running between patients</h3>
+                  <p>
+                    Clinical CMMS, FSM, and Thorium EHS coordinate an equipment
+                    alert before a single appointment is delayed.
+                  </p>
+                  <a href="#functions" class="story__link"
+                    >Explore healthcare solutions &rarr;</a
+                  >
+                </div>
+              </article>
+
+              <!-- Utilities -->
+              <article class="story">
+                <div class="story__media">
+                  <img
+                    src="assets/field.webp"
+                    alt="Utility technician inspecting substation equipment with a ruggedized tablet"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                  />
+                  <span class="story__badge">Utilities</span>
+                </div>
+                <div class="story__body">
+                  <h3>Dispatching field crews with predictive AI</h3>
+                  <p>
+                    Trestara FSM automatically routes certified technicians
+                    while enterprise asset management monitors grid health.
+                  </p>
+                  <a href="#functions" class="story__link"
+                    >Explore utility operations &rarr;</a
+                  >
+                </div>
+              </article>
+
+              <!-- Manufacturing -->
+              <article class="story">
+                <div class="story__media">
+                  <img
+                    src="assets/factory.webp"
+                    alt="Automation engineer inspecting robotics and conveyor workflows"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                  />
+                  <span class="story__badge">Manufacturing</span>
+                </div>
+                <div class="story__body">
+                  <h3>Improving shop-floor productivity &amp; uptime</h3>
+                  <p>
+                    VELORIS and SAIGEN connect assembly production, preventive
+                    maintenance, and procurement in real time.
+                  </p>
+                  <a href="#functions" class="story__link"
+                    >Explore industrial AI ERP &rarr;</a
+                  >
+                </div>
+              </article>
+
+              <!-- Public Sector -->
+              <article class="story">
+                <div class="story__media">
+                  <img
+                    src="assets/gov.webp"
+                    alt="Public sector intelligence analysts reviewing operations center displays"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                  />
+                  <span class="story__badge">Public Sector</span>
+                </div>
+                <div class="story__body">
+                  <h3>Modernizing agency missions on GovCloud</h3>
+                  <p>
+                    Poseidon and SAIRAA Plus deliver FedRAMP-aligned cloud and
+                    AI, secured by Cyberdyne IGA and Ixiono ledger audit trails.
+                  </p>
+                  <a href="#functions" class="story__link"
+                    >Explore GovCloud platform &rarr;</a
+                  >
+                </div>
+              </article>
+
+              <!-- Telecom -->
+              <article class="story">
+                <div class="story__media">
+                  <img
+                    src="assets/img-tower.webp"
+                    alt="5G cellular transmission infrastructure at twilight with connected data overlay"
+                    loading="lazy"
+                    width="400"
+                    height="250"
+                  />
+                  <span class="story__badge">Telecommunications</span>
+                </div>
+                <div class="story__body">
+                  <h3>Launching carrier-grade mobile services</h3>
+                  <p>
+                    Infinion, Omnixa, and Qimonda power turnkey MNO and MVNE
+                    business models across Seiretsu 5G Wireless.
+                  </p>
+                  <a href="#functions" class="story__link"
+                    >Explore 5G &amp; connectivity &rarr;</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <!-- Carousel Controls -->
+            <div class="carousel__ctrl">
+              <button
+                type="button"
+                class="ctrl-btn"
+                data-prev
+                aria-label="Previous industry story"
+              >
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  stroke="currentColor"
+                  width="18"
+                  height="18"
+                >
+                  <path
+                    d="M12.5 15L7.5 10L12.5 5"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="ctrl-btn"
+                data-next
+                aria-label="Next industry story"
+              >
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  stroke="currentColor"
+                  width="18"
+                  height="18"
+                >
+                  <path
+                    d="M7.5 5L12.5 10L7.5 15"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Industries Pill Bar -->
+          <div class="industries-bar">
+            <span class="industries-bar__label">Specialized Ecosystems:</span>
+            <ul class="industries-list" aria-label="Industries served">
+              <li>Healthcare</li>
+              <li>Public Sector</li>
+              <li>Telecommunications</li>
+              <li>Manufacturing</li>
+              <li>Utilities</li>
+              <li>Professional Services</li>
+              <li>Small &amp; Midsize Business</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PLATFORM & ARCHITECTURE -->
+      <section class="section section--alt" id="platform">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-kicker">Unified Foundation</span>
+            <h2 class="sec-title">
+              Finally, <span class="hl-text">one platform</span> for all your AI
+            </h2>
+            <p class="sec-desc">
+              Build, contextualize, and govern enterprise AI on a single
+              foundation &mdash; natively connected to the operational systems
+              your business runs on.
+            </p>
+          </div>
+
+          <!-- Interactive Platform Tabs -->
+          <div class="ptabs">
+            <div
+              class="ptabs__list"
+              role="tablist"
+              aria-label="AI Platform Capabilities"
+            >
+              <button
+                type="button"
+                role="tab"
+                id="tab-build"
+                aria-controls="panel-build"
+                aria-selected="true"
+                tabindex="0"
+                class="ptab-btn is-active"
+              >
+                <span class="ptab-btn__step">01. Build</span>
+                <span class="ptab-btn__title">Agents, apps &amp; skills</span>
+              </button>
+
+              <button
+                type="button"
+                role="tab"
+                id="tab-context"
+                aria-controls="panel-context"
+                aria-selected="false"
+                tabindex="-1"
+                class="ptab-btn"
+              >
+                <span class="ptab-btn__step">02. Contextualize</span>
+                <span class="ptab-btn__title"
+                  >Data &amp; enterprise intelligence</span
+                >
+              </button>
+
+              <button
+                type="button"
+                role="tab"
+                id="tab-govern"
+                aria-controls="panel-govern"
+                aria-selected="false"
+                tabindex="-1"
+                class="ptab-btn"
+              >
+                <span class="ptab-btn__step">03. Govern</span>
+                <span class="ptab-btn__title"
+                  >Security, identity &amp; audit</span
+                >
+              </button>
+            </div>
+
+            <div class="ptabs__panels">
+              <!-- Panel 1: Build -->
+              <div
+                class="pp"
+                role="tabpanel"
+                id="panel-build"
+                aria-labelledby="tab-build"
+              >
+                <div class="pp__content">
+                  <span class="badge-sub">Autonomous Orchestration</span>
+                  <h3>Build agents, apps, and autonomous skills</h3>
+                  <p>
+                    Turn strategy into autonomous execution with SAIGEN, a
+                    generative AI orchestration layer that executes workflows
+                    across ERP, CRM, and field operations without overhead.
+                  </p>
+                  <div class="pp__pills">
+                    <span class="prod-pill">SAIGEN GenAI</span>
+                    <span class="prod-pill">Nikolai Copilot</span>
+                  </div>
+                  <a href="#ask" class="story__link"
+                    >Try prompt engineering with Nikolai &rarr;</a
+                  >
+                </div>
+                <div class="pp__viz pp__viz--build" aria-hidden="true">
+                  <div class="viz-card">
+                    <div class="viz-card__info">
+                      <span class="viz-card__dot dot-live"></span>
+                      <strong>Agent: Invoice Matching</strong>
+                    </div>
+                    <span class="viz-status status-active">Active</span>
+                  </div>
+                  <div class="viz-card">
+                    <div class="viz-card__info">
+                      <span class="viz-card__dot dot-live"></span>
+                      <strong>Agent: PM Scheduler</strong>
+                    </div>
+                    <span class="viz-status status-active">Active</span>
+                  </div>
+                  <div class="viz-card">
+                    <div class="viz-card__info">
+                      <span class="viz-card__dot dot-draft"></span>
+                      <strong>Skill: Recall Triage</strong>
+                    </div>
+                    <span class="viz-status status-draft">Draft</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel 2: Contextualize -->
+              <div
+                class="pp"
+                role="tabpanel"
+                id="panel-context"
+                aria-labelledby="tab-context"
+                hidden
+              >
+                <div class="pp__content">
+                  <span class="badge-sub">Real-Time Data Fabric</span>
+                  <h3>Contextualize with live multi-source telemetry</h3>
+                  <p>
+                    Lumenix transforms continuous data streams from ERP
+                    transactions, IoT sensors, mobile networks, and field
+                    hardware into clear signals. Sirach adds contextual decision
+                    support grounded in historical policy.
+                  </p>
+                  <div class="pp__pills">
+                    <span class="prod-pill">Lumenix Telemetry</span>
+                    <span class="prod-pill">Sirach Intelligence</span>
+                  </div>
+                  <a href="#functions" class="story__link"
+                    >Explore Lumenix telemetry &rarr;</a
+                  >
+                </div>
+                <div class="pp__viz pp__viz--context" aria-hidden="true">
+                  <div class="telemetry-box">
+                    <div class="telemetry-box__head">
+                      <span>Industrial Equipment Uptime</span>
+                      <strong>99.98% SLA</strong>
+                    </div>
+                    <div class="bar-chart">
+                      <div class="bar" style="--val: 45%"><span>Mon</span></div>
+                      <div class="bar" style="--val: 68%"><span>Tue</span></div>
+                      <div class="bar" style="--val: 52%"><span>Wed</span></div>
+                      <div class="bar" style="--val: 84%"><span>Thu</span></div>
+                      <div class="bar" style="--val: 72%"><span>Fri</span></div>
+                      <div class="bar" style="--val: 94%"><span>Sat</span></div>
+                      <div class="bar" style="--val: 98%"><span>Sun</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel 3: Govern -->
+              <div
+                class="pp"
+                role="tabpanel"
+                id="panel-govern"
+                aria-labelledby="tab-govern"
+                hidden
+              >
+                <div class="pp__content">
+                  <span class="badge-sub">Zero-Trust Agent Governance</span>
+                  <h3>Govern and secure AI across your enterprise</h3>
+                  <p>
+                    VanguardShield provides proactive AI threat detection,
+                    Cyberdyne strictly governs user and autonomous agent
+                    credentials, and Ixiono anchors critical transactional
+                    decisions to an immutable cryptographic ledger.
+                  </p>
+                  <div class="pp__pills">
+                    <span class="prod-pill">VanguardShield</span>
+                    <span class="prod-pill">Cyberdyne IGA</span>
+                    <span class="prod-pill">Ixiono Ledger</span>
+                  </div>
+                  <a href="#contact" class="story__link"
+                    >Request security whitepaper &rarr;</a
+                  >
+                </div>
+                <div class="pp__viz pp__viz--govern" aria-hidden="true">
+                  <div class="trust-shield">
+                    <div class="trust-shield__badge">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        width="48"
+                        height="48"
+                      >
+                        <path
+                          d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <ul class="trust-checklist">
+                      <li>
+                        <span class="check-icon">&#10003;</span> Autonomous
+                        agent privilege scoped
+                      </li>
+                      <li>
+                        <span class="check-icon">&#10003;</span> Real-time
+                        credential attestation
+                      </li>
+                      <li>
+                        <span class="check-icon">&#10003;</span> Cryptographic
+                        audit anchor verified
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ecosystem Diagram Figure -->
+          <figure class="eco-diagram">
+            <div class="eco-diagram__canvas">
+              <img
+                src="assets/seiretsu-ecosystem.webp"
+                alt="Seiretsu Enterprise Ecosystem Diagram illustrating interconnected platform layers"
+                loading="lazy"
+                width="1536"
+                height="1024"
+              />
+            </div>
+            <figcaption class="eco-diagram__caption">
+              <strong>The Seiretsu Ecosystem Architecture</strong> &mdash; 13
+              integrated platform families operating continuously across a
+              single intelligent control plane.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ENTERPRISE FUNCTIONS GRID -->
+      <section class="section" id="functions">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-kicker">Unified Operating Capabilities</span>
+            <h2 class="sec-title">
+              When every function is <span class="hl-text">intelligent</span>,
+              scale has no limits
+            </h2>
+            <p class="sec-desc">
+              In the Seiretsu enterprise, predictive AI models, operational
+              workflows, and transactional data collaborate continuously across
+              every business unit.
+            </p>
+          </div>
+
+          <div class="grid-fn">
+            <!-- 1. AI ERP -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <rect
+                    x="2"
+                    y="3"
+                    width="20"
+                    height="14"
+                    rx="2"
+                    stroke-width="2"
+                  />
+                  <line
+                    x1="8"
+                    y1="21"
+                    x2="16"
+                    y2="21"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <line x1="12" y1="17" x2="12" y2="21" stroke-width="2" />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Enterprise Resource Planning</h3>
+              <p class="fn-card__desc">
+                Unify finance, global procurement, supplier ledgers, and
+                logistics on continuous AI automation.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">VELORIS</span>
+                <span class="chip">XOSIA</span>
+                <span class="chip">Nexavion</span>
+                <span class="chip">SAIGEN</span>
+              </div>
+              <a href="#contact" class="story__link"
+                >Explore AI ERP solutions &rarr;</a
+              >
+            </article>
+
+            <!-- 2. Customer Experience & CRM -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                    stroke-width="2"
+                  />
+                  <circle cx="9" cy="7" r="4" stroke-width="2" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke-width="2" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke-width="2" />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Customer Relationship Intelligence</h3>
+              <p class="fn-card__desc">
+                Deliver connected sales, contract lifecycles, customer service,
+                and real-time behavioral predictions.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">ARIA CRM</span>
+              </div>
+              <a href="#contact" class="story__link">Explore ARIA CRM &rarr;</a>
+            </article>
+
+            <!-- 3. Asset & Field Operations -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Asset &amp; Field Operations</h3>
+              <p class="fn-card__desc">
+                Orchestrate complex physical assets, mobile work orders, field
+                dispatches, and clinical medical equipment.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">Trestara AiiA</span>
+                <span class="chip">EAMS</span>
+                <span class="chip">FSM</span>
+                <span class="chip">Clinical CMMS</span>
+              </div>
+              <a href="#contact" class="story__link"
+                >Explore Trestara AiiA &rarr;</a
+              >
+            </article>
+
+            <!-- 4. Environment, Health & Safety -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M9 12l2 2 4-4"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Environment, Health &amp; Safety</h3>
+              <p class="fn-card__desc">
+                Mitigate operational hazards, streamline incident triage, and
+                manage worker claims and return-to-work paths.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">Thorium AiiA EHS</span>
+              </div>
+              <a href="#contact" class="story__link"
+                >Explore Thorium EHS &rarr;</a
+              >
+            </article>
+
+            <!-- 5. Government Cloud -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Government Cloud</h3>
+              <p class="fn-card__desc">
+                Mission-critical public-sector computing, sovereign data
+                enclaves, and strict FedRAMP/DoD-aligned AI services.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">GovCloud Poseidon</span>
+                <span class="chip">SAIRAA Plus</span>
+              </div>
+              <a href="#contact" class="story__link">Explore GovCloud &rarr;</a>
+            </article>
+
+            <!-- 6. Private 5G & Connectivity -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M5 12.55a11 11 0 0 1 14.08 0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M1.42 9a16 16 0 0 1 21.16 0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M8.53 16.11a6 6 0 0 1 6.95 0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <circle cx="12" cy="20" r="1" />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Carrier &amp; Campus Connectivity</h3>
+              <p class="fn-card__desc">
+                Ultra-low latency private 5G slices, metro fiber interconnects,
+                and turnkey carrier MNO/MVNE systems.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">Seiretsu 5G</span>
+                <span class="chip">Fiber Partner</span>
+                <span class="chip">Infinion</span>
+                <span class="chip">Omnixa</span>
+              </div>
+              <a href="#contact" class="story__link"
+                >Explore connectivity &rarr;</a
+              >
+            </article>
+
+            <!-- 7. SMB & Point of Sale -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                    stroke-width="2"
+                  />
+                  <line x1="3" y1="6" x2="21" y2="6" stroke-width="2" />
+                  <path d="M16 10a4 4 0 0 1-8 0" stroke-width="2" />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Small &amp; Midsize Business</h3>
+              <p class="fn-card__desc">
+                Enterprise-caliber automation sized for rapid deployment in
+                omnichannel retail, service shops, and commerce.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">Paige Business</span>
+                <span class="chip">Marivia Commerce</span>
+              </div>
+              <a href="#contact" class="story__link"
+                >Explore SMB tools &rarr;</a
+              >
+            </article>
+
+            <!-- 8. Identity & Trust Ledger -->
+            <article class="fn-card">
+              <div class="fn-card__icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <rect
+                    x="3"
+                    y="11"
+                    width="18"
+                    height="11"
+                    rx="2"
+                    ry="2"
+                    stroke-width="2"
+                  />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke-width="2" />
+                </svg>
+              </div>
+              <h3 class="fn-card__title">Identity &amp; Trust Governance</h3>
+              <p class="fn-card__desc">
+                Identity lifecycle governance (IGA) for human users and AI
+                agents paired with immutable blockchain ledgering.
+              </p>
+              <div class="fn-card__prods">
+                <span class="chip">Cyberdyne IGA</span>
+                <span class="chip">Ixiono Ledger</span>
+              </div>
+              <a href="#contact" class="story__link"
+                >Explore trust solutions &rarr;</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ASSISTANT SHOWCASE -->
+      <section class="section section--alt" id="assistant">
+        <div class="wrap split">
+          <div class="split__text">
+            <span class="sec-kicker">Autonomous Workplace Copilot</span>
+            <h2 class="sec-title">
+              Meet <span class="hl-text">Nikolai</span>, the AI assistant for
+              everyday work
+            </h2>
+            <p class="sec-desc">
+              Ask Nikolai what you need, then execute immediately &mdash; across
+              ERP ledgers, CRM pipeline, physical maintenance, and safety
+              operations &mdash; from a single prompt interface. Sirach adds
+              deep contextual intelligence for high-stakes operational
+              decisions.
+            </p>
+            <div class="btn-row">
+              <a href="#ask" class="btn btn--primary">Try Nikolai Live</a>
+              <a href="#platform" class="btn btn--outline"
+                >How the AI Platform Works</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="ui-preview"
+            aria-label="Illustration of the Nikolai assistant interface"
+          >
+            <div class="ui-preview__bar">
+              <div class="ui-dots"><span></span><span></span><span></span></div>
+              <span class="ui-preview__title">Nikolai Agent Terminal</span>
+            </div>
+            <div class="ui-preview__body">
+              <div class="mock-msg mock-msg--user">
+                Which critical physical assets are at risk this week?
+              </div>
+              <div class="mock-msg mock-msg--ai">
+                <strong>3 assets flagged</strong> by Trestara AiiA telemetry:
+                <ul class="asset-risk-list">
+                  <li>
+                    <span class="sev sev--hi"></span> MRI Scanner &bull;
+                    Radiology &bull; Compressor temp rising (+4.2&deg;C)
+                  </li>
+                  <li>
+                    <span class="sev sev--md"></span> Main Chiller 2 &bull;
+                    Campus Central &bull; High bearing vibration
+                  </li>
+                  <li>
+                    <span class="sev sev--lo"></span> Fleet Transport 14 &bull;
+                    Scheduled preventive maintenance overdue
+                  </li>
+                </ul>
+                <div class="mock-actions">
+                  <span class="mock-pill">Create work orders</span>
+                  <span class="mock-pill">Notify safety director</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNER ECOSYSTEM -->
+      <section class="section" id="partners">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-kicker">Global Collaboration</span>
+            <h2 class="sec-title">
+              Accelerate scale with our partner ecosystem
+            </h2>
+            <p class="sec-desc">
+              Collaborate with enterprise systems integrators, regional fiber
+              partners, and strategic technology providers worldwide.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <!-- 1. Fiber Partner Program -->
+            <article class="pcard">
+              <div class="pcard__art">
+                <img
+                  src="https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt="High-density blue optical telecommunications fiber interconnects and server infrastructure"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pcard__body">
+                <h3 class="pcard__title">Fiber Partner Program</h3>
+                <p class="pcard__desc">
+                  Deliver high-capacity dark fiber infrastructure to metro
+                  campuses and enterprise parks alongside Seiretsu.
+                </p>
+                <a href="#contact" class="story__link"
+                  >Join the fiber program &rarr;</a
+                >
+              </div>
+            </article>
+
+            <!-- 2. Certified Systems Integrators -->
+            <article class="pcard">
+              <div class="pcard__art">
+                <img
+                  src="assets/img-team.webp"
+                  alt="Seiretsu certified integration engineering team collaborating"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pcard__body">
+                <h3 class="pcard__title">Find a Certified Partner</h3>
+                <p class="pcard__desc">
+                  Deploy with verified implementation partners who understand
+                  Seiretsu architecture end-to-end.
+                </p>
+                <a href="#contact" class="story__link"
+                  >Discover partners &rarr;</a
+                >
+              </div>
+            </article>
+
+            <!-- 3. Become a Technology Partner -->
+            <article class="pcard">
+              <div class="pcard__art">
+                <img
+                  src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+                  alt="Software engineers collaborating in a modern technology center"
+                  loading="lazy"
+                />
+              </div>
+              <div class="pcard__body">
+                <h3 class="pcard__title">Become a Technology Partner</h3>
+                <p class="pcard__desc">
+                  Build, integrate, or distribute Seiretsu-compatible
+                  applications and scale with our global enterprise customer
+                  base.
+                </p>
+                <a href="#contact" class="story__link"
+                  >Apply to partner &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT'S NEW & ACADEMY -->
+      <section class="section section--alt" id="academy">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-kicker">Continuous Learning &amp; News</span>
+            <h2 class="sec-title">
+              What&rsquo;s new across the Seiretsu ecosystem
+            </h2>
+          </div>
+
+          <div class="news-layout">
+            <!-- Featured Lead Story (Academy) -->
+            <article class="news-lead">
+              <div class="news-lead__media">
+                <img
+                  src="assets/img-academy.webp"
+                  alt="Seiretsu Academy engineers in a technology masterclass"
+                  loading="lazy"
+                />
+              </div>
+              <div class="news-lead__content">
+                <span class="sec-kicker">Seiretsu Academy</span>
+                <h3>Learn. Build. Grow.</h3>
+                <p>
+                  Comprehensive enterprise training and professional
+                  certifications across every tier of the Seiretsu platform
+                  &mdash; designed for customers, systems integrators, and
+                  software engineers.
+                </p>
+                <a href="#contact" class="btn btn--outline btn--sm"
+                  >Explore Academy Curriculum</a
+                >
+              </div>
+            </article>
+
+            <!-- News Card 1 -->
+            <article class="news-card">
+              <span class="badge-sub">Product Release</span>
+              <h4>Clinical CMMS Joins Trestara AiiA</h4>
+              <p>
+                Specialized biomedical and clinical equipment compliance
+                software for healthcare facilities, diagnostic labs, and
+                hospitals.
+              </p>
+              <a href="#functions" class="story__link"
+                >Read announcement &rarr;</a
+              >
+            </article>
+
+            <!-- News Card 2 -->
+            <article class="news-card">
+              <span class="badge-sub">Infrastructure</span>
+              <h4>Seiretsu 5G Wireless for Campuses</h4>
+              <p>
+                Dedicated low-latency private 5G network slices for industrial
+                assembly floors, hospital systems, and smart utilities.
+              </p>
+              <a href="#functions" class="story__link"
+                >Explore 5G specs &rarr;</a
+              >
+            </article>
+
+            <!-- News Card 3 -->
+            <article class="news-card">
+              <span class="badge-sub">Ecosystem</span>
+              <h4>27 Unified Enterprise Offerings</h4>
+              <p>
+                Discover how 13 core platform families coordinate through a
+                single intelligent operating fabric.
+              </p>
+              <a href="#platform" class="story__link"
+                >Review architecture &rarr;</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- LIVE INTERACTIVE TERMINAL: ASK NIKOLAI -->
+      <section class="section ask-section" id="ask">
+        <div class="wrap ask-wrap">
+          <div class="sec-head sec-head--center">
+            <span class="sec-kicker">Conversational AI Terminal</span>
+            <h2 class="sec-title">Ask Nikolai anything</h2>
+            <p class="sec-desc">
+              Test our operational copilot. Ask questions about Seiretsu ERP,
+              hospital biomedical systems, government compliance, or private
+              networks.
+            </p>
+          </div>
+
+          <!-- Chat Log Window -->
+          <div class="chat-terminal" id="chat-terminal">
+            <div class="chat-log" id="chat-log" aria-live="polite">
+              <div class="msg msg--ai">
+                Hello! I'm Nikolai, Seiretsu's enterprise copilot. Ask me how
+                our ecosystem connects ERP, clinical operations, GovCloud, or 5G
+                connectivity for your organization.
+              </div>
+            </div>
+
+            <!-- Prompt Form -->
+            <form class="ask-form" id="ask-form">
+              <label for="ask-input" class="sr-only"
+                >Ask Nikolai a question</label
+              >
+              <input
+                type="text"
+                id="ask-input"
+                placeholder="e.g. How does Seiretsu support hospital equipment operations?"
+                autocomplete="off"
+                required
+              />
+              <button type="submit" class="ask-btn" aria-label="Send query">
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  stroke="currentColor"
+                  width="18"
+                  height="18"
+                >
+                  <path
+                    d="M3 10L17 3L10 17L9 11L3 10Z"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </form>
+
+            <!-- Suggested Prompt Chips -->
+            <div class="ask-chips" aria-label="Suggested questions">
+              <button
+                type="button"
+                class="chip-btn"
+                data-query="How can Seiretsu help my hospital?"
+              >
+                How can Seiretsu help my hospital?
+              </button>
+              <button
+                type="button"
+                class="chip-btn"
+                data-query="What is AI ERP?"
+              >
+                What is AI ERP?
+              </button>
+              <button
+                type="button"
+                class="chip-btn"
+                data-query="Do you serve government agencies?"
+              >
+                Do you serve government agencies?
+              </button>
+              <button
+                type="button"
+                class="chip-btn"
+                data-query="Tell me about 5G and connectivity."
+              >
+                Tell me about 5G and connectivity.
+              </button>
+            </div>
+            <p class="ask-disclaimer">
+              Interactive demonstration mode &bull; Real-time AI response
+              emulation grounded in Seiretsu enterprise architecture.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT & LEAD CONTACT SECTION -->
+      <section class="section" id="about">
+        <div class="wrap about-grid">
+          <!-- Company Heritage & KPIs -->
+          <div class="about-info">
+            <span class="sec-kicker">Enterprise Heritage</span>
+            <h2 class="sec-title">
+              Architected for mission-critical operations
+            </h2>
+            <p class="sec-desc">
+              Founded in 2006 in Cary, North Carolina, within the Research
+              Triangle Park technology corridor, and headquartered today in
+              Orlando, Florida, Seiretsu engineers an integrated operating
+              ecosystem across healthcare systems, government agencies, telecom
+              carriers, and industrial manufacturing.
+            </p>
+
+            <dl class="kpi-grid">
+              <div class="kpi-card">
+                <dt class="kpi-num">2006</dt>
+                <dd class="kpi-label">Founded in Research Triangle Park</dd>
+              </div>
+              <div class="kpi-card">
+                <dt class="kpi-num">13</dt>
+                <dd class="kpi-label">Platform Families</dd>
+              </div>
+              <div class="kpi-card">
+                <dt class="kpi-num">27</dt>
+                <dd class="kpi-label">
+                  Interconnected Products &amp; Programs
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-card" id="contact">
+            <div class="contact-card__head">
+              <h3>Talk to a Seiretsu Specialist</h3>
+              <p>
+                Connect with our solutions architects to design your enterprise
+                deployment.
+              </p>
+            </div>
+
+            <form class="lead-form" id="lead-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="c-name"
+                    >Full name <span class="req">*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="c-name"
+                    name="name"
+                    placeholder="Sarah Connor"
+                    required
+                    autocomplete="name"
+                  />
+                  <span class="err-hint" id="err-name"></span>
+                </div>
+                <div class="form-group">
+                  <label for="c-company"
+                    >Organization / Company <span class="req">*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="c-company"
+                    name="company"
+                    placeholder="Acme Health Systems"
+                    required
+                    autocomplete="organization"
+                  />
+                  <span class="err-hint" id="err-company"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="c-email"
+                    >Work email address <span class="req">*</span></label
+                  >
+                  <input
+                    type="email"
+                    id="c-email"
+                    name="email"
+                    placeholder="sarah@acmehealth.com"
+                    required
+                    autocomplete="email"
+                  />
+                  <span class="err-hint" id="err-email"></span>
+                </div>
+                <div class="form-group">
+                  <label for="c-topic">Primary area of interest</label>
+                  <select id="c-topic" name="topic">
+                    <option value="AI ERP (VELORIS, SAIGEN)">
+                      AI ERP (VELORIS, SAIGEN)
+                    </option>
+                    <option value="Enterprise AI & Nikolai">
+                      Enterprise AI &amp; Nikolai Copilot
+                    </option>
+                    <option value="ARIA CRM">ARIA CRM Intelligence</option>
+                    <option value="Trestara AiiA & Asset Operations">
+                      Trestara AiiA &amp; Asset Operations
+                    </option>
+                    <option value="Clinical CMMS (Healthcare)">
+                      Clinical CMMS (Healthcare)
+                    </option>
+                    <option value="Thorium AiiA EHS (Safety)">
+                      Thorium AiiA EHS (Safety)
+                    </option>
+                    <option value="GovCloud (Poseidon & SAIRAA Plus)">
+                      GovCloud (Poseidon &amp; SAIRAA Plus)
+                    </option>
+                    <option value="5G, Fiber & Connectivity">
+                      5G Wireless, Fiber &amp; Connectivity
+                    </option>
+                    <option value="Small & Midsize Business (Paige, Marivia)">
+                      Small &amp; Midsize Business (Paige, Marivia)
+                    </option>
+                    <option value="Strategic Partnerships">
+                      Strategic Partnerships
+                    </option>
+                    <option value="Seiretsu Academy Certification">
+                      Seiretsu Academy Certification
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="c-msg">Operational requirements or questions</label>
+                <textarea
+                  id="c-msg"
+                  name="message"
+                  rows="3"
+                  placeholder="Describe your existing systems or operational goals..."
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn--primary btn--full"
+                id="btn-submit"
+              >
+                <span>Submit Enterprise Inquiry</span>
+              </button>
+              <div
+                class="form-feedback"
+                id="form-feedback"
+                role="status"
+                aria-live="polite"
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPLETE CORPORATE FOOTER -->
+      <footer class="footer">
+        <div class="wrap">
+          <div class="footer__top">
+            <a href="#top" class="brand" aria-label="Seiretsu Home">
+              <svg
+                viewBox="0 0 40 40"
+                class="brand__mark"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <circle cx="20" cy="20" r="18" fill="url(#brand-grad)" />
+                <path
+                  d="M8 26C15 24.5 22 19 30 11"
+                  stroke="#ffffff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+                <path
+                  d="M11 31C17 29.5 23 24.5 29 17"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  fill="none"
+                  opacity="0.75"
+                />
+              </svg>
+              <span class="brand__text">Seiretsu</span>
+            </a>
+            <a
+              href="#top"
+              class="totop"
+              id="totop-btn"
+              aria-label="Back to top of page"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                width="16"
+                height="16"
+              >
+                <path
+                  d="M10 16V4M4 10L10 4L16 10"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="footer__meta">
+            <div class="footer__location">
+              <svg
+                viewBox="0 0 20 20"
+                fill="none"
+                stroke="currentColor"
+                width="16"
+                height="16"
+              >
+                <path
+                  d="M10 2C6.686 2 4 4.686 4 8c0 5.25 6 10 6 10s6-4.75 6-10c0-3.314-2.686-6-6-6zm0 8.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"
+                  stroke-width="1.6"
+                />
+              </svg>
+              <span>Global HQ: Orlando, Florida, United States </span>
+            </div>
+            <a href="#contact" class="footer__contact-link"
+              >Contact Sales &rarr;</a
+            >
+          </div>
+
+          <!-- 4-Column Navigation Matrix -->
+          <div class="footer__cols">
+            <div class="f-col">
+              <span class="f-col__h">Products</span>
+              <a href="#functions">AI ERP Suite (VELORIS)</a>
+              <a href="#platform">Enterprise AI &amp; Agents</a>
+              <a href="#functions">ARIA CRM Intelligence</a>
+              <a href="#functions">Trestara AiiA Asset Ops</a>
+              <a href="#functions">Thorium AiiA Safety (EHS)</a>
+            </div>
+
+            <div class="f-col">
+              <span class="f-col__h">Solutions &amp; Trust</span>
+              <a href="#functions">GovCloud &amp; Public Sector</a>
+              <a href="#functions">Private 5G &amp; Campus Fiber</a>
+              <a href="#functions">Small &amp; Midsize Business</a>
+              <a href="#platform">Cyberdyne Identity &amp; Trust</a>
+              <a href="#stories">Industry Implementations</a>
+            </div>
+
+            <div class="f-col">
+              <span class="f-col__h">Company &amp; Network</span>
+              <a href="#about">About Seiretsu</a>
+              <a href="#partners">Partner Ecosystem</a>
+              <a href="#academy">Seiretsu Academy</a>
+              <a href="#academy">What&rsquo;s New / Releases</a>
+              <a href="#ask">Ask Nikolai Assistant</a>
+            </div>
+
+            <div class="f-col">
+              <span class="f-col__h">Site &amp; Compliance</span>
+              <button
+                type="button"
+                class="f-modal-trigger"
+                data-modal="modal-privacy"
+              >
+                Privacy Policy
+              </button>
+              <button
+                type="button"
+                class="f-modal-trigger"
+                data-modal="modal-terms"
+              >
+                Terms of Use
+              </button>
+              <button
+                type="button"
+                class="f-modal-trigger"
+                data-modal="modal-accessibility"
+              >
+                Accessibility
+              </button>
+              <button
+                type="button"
+                class="f-modal-trigger"
+                data-modal="modal-cookies"
+              >
+                Cookie Preferences
+              </button>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <p class="footer__copy">
+              &copy; 2026 Seiretsu Group. All rights reserved.
+            </p>
+            <p class="footer__subtext">
+              Built to unified enterprise standards &bull; High-availability
+              SOC2 Type II and FedRAMP readiness architecture.
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- COMPLIANCE & LEGAL MODALS -->
+      <div class="modal-backdrop" id="modal-backdrop" hidden>
+        <div
+          class="modal-box"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
+        >
+          <div class="modal-box__head">
+            <h3 id="modal-title">Notice</h3>
+            <button
+              type="button"
+              class="modal-close-btn"
+              id="modal-close-btn"
+              aria-label="Close dialog"
+            >
+              &times;
+            </button>
+          </div>
+          <div class="modal-box__body" id="modal-body-content"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
