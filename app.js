@@ -127,8 +127,8 @@
       "For healthcare networks, Trestara AiiA Clinical CMMS manages biomedical devices, safety recalls, and inspection readiness. Automated field dispatch routes certified technicians, Thorium EHS governs worker safety, and Cyberdyne verifies zero-trust access.",
     ],
     [
-      /erp|finance|accounting|procure|veloris|xosia|nexavion|saigen/i,
-      "Seiretsu AI ERP integrates VELORIS, XOSIA, Nexavion, and SAIGEN. Together they manage financial ledgers, procurement cycles, and supply chain logistics with generative AI to automate repetitive workflows.",
+      /erp|finance|accounting|procure|veloris|radium|north|xosia|nexavion|saigen/i,
+      "Seiretsu AI ERP integrates VELORIS, the newly added Radium platform, North operations (formerly XOSIA), Nexavion, and SAIGEN. Together they manage multi-entity financial ledgers, autonomous procurement, and predictive supply chain logistics.",
     ],
     [
       /gov|agency|public|federal|state|cloud|poseidon/i,
